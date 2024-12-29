@@ -9,7 +9,7 @@ export default function GetInTouch() {
           .getElementById("contact")
           ?.scrollIntoView({ behavior: "smooth" })
       }>
-      Get in Touch
+      Contact Us
     </RainbowButton>
   );
 }

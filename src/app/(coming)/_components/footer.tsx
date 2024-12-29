@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Facebook, Youtube } from "lucide-react";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 export default function Footer() {
   return (
@@ -12,7 +11,6 @@ export default function Footer() {
           </p>
         </div>
         <nav className="flex items-center space-x-4">
-          <ThemeToggle />
           <Link
             target="_blank"
             href="https://www.facebook.com/dumbstylecorporation"
